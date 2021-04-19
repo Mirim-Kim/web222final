@@ -1,0 +1,14 @@
+/**
+ * Styles for the add-observation.html page 
+ */
+#notes {
+    width: 480px;
+}
+
+#name {
+    width: 510px;
+}
+
+#email {
+    width: 510px;
+}
