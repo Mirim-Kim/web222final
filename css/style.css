@@ -121,14 +121,10 @@ footer {
 /**
  * TODO: style the Search Form
  */
-/* .searchForm{
-  display: inline-block;
-} */
 
 #searchText{
   width: 600px;
   display: inline;
-  /* todo: 창줄이면 줄바뀜 */
 }
 
 #searchButton {
