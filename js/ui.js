@@ -110,44 +110,10 @@ function toggleLoading(isLoading) {
   if(isLoading == true) {
     document.getElementById("buttonText").innerHTML = " Loading...";
     document.getElementById("searchIcon").className = "fas fa-hourglass-half";
-
-
-    // document.getElementById("searchButton").innerHTML = " Loading...";
-    // const i = document.createElement("i");
-    // i.className = "fas fa-hourglass-half";
-
-
-    //todo
-
-    // document.getElementById("searchButton").innerHTML = " Loading...";
-    // // document.getElementById("searchIcon").className = "fas fa-hourglass-half";
-    // // document.querySelector("#searchIcon").className = "fas fa-hourglass-half";
-    
-    // let i = document.getElementById("searchIcon");
-    // console.log(i);
-    // i.className =  "fas fa-hourglass-half";
-
-    // // const i = document.createElement("i");
-    // // i.className = "fas fa-hourglass-half";
-
-
-
     searchButton.disabled = true;
   } else if(isLoading == false){
     document.getElementById("buttonText").innerHTML = " Search";
     document.getElementById("searchIcon").className = "fas fa-search";
-
-    //todo
-    // // console.log('search');
-    // searchButton.innerText = " Search";
-    
-    // // const i = document.createElement("i");
-    // // i.className = "fas fa-search";
-    // // i.innerText = "s";
-
-    // document.getElementById("searchIcon").className = "fas fa-search";
-
-    // searchIcon.className = "fas fa-search";
     searchButton.disabled = false;
   }
 }
